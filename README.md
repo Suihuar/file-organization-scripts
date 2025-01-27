@@ -1,9 +1,9 @@
 # file-organization-scripts
 A Collection of File Organization Scripts written by me. I use them to organize my photos, comic, videos and so on. 
 
-## 1 empty folder eliminator
+## 1. empty folder eliminator
 Dragging the parent folder onto the file, all empty subfolders will be delete.
-## 2 auto prefix adder 
+## 2. auto prefix adder 
 Dragging in a file will automatically add the root directory name as a prefix.
 
 For example:
@@ -41,7 +41,7 @@ And it's convinient for you to review them by moving them together:
 5. Day2 IMG-0813.png
 6. Day2 IMG-0814.png
 
-## 3 auto prefix adder v2
+## 3. auto prefix adder v2
 
 Some times unkown errors occur when coming to the case that parent folders' name be like '2021.04 Japan'. In this case,  after renaming, the new files' prefix would be like '2021 IMG-0809' (Some part of the parent's name is lost).
 
@@ -71,9 +71,9 @@ After you search <u>'.png'</u> inside <u>2021-Japan</u> folder and drag all the 
 
 The above shows the unknown bug. I will try to solve it if someday I cannot stand it anymore. 
 
-## 4 suffix changer - exe to 7z
+## 4. suffix changer - exe to 7z
 drag bunch of .exe file to it, change all to .7z file.
-## 5 target file counter
+## 5. target file counter
 Current function of the tool: Traverse all folders and their subfolders, and return the total number of files with the extensions .jpg, .png, and .jpeg (the sum of them). 
 
 You can use it to count any types of files simply by adjusting the <u>'extensions'</u> array and the destination folder path.
